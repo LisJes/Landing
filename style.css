@@ -1,0 +1,87 @@
+/* style.css */
+  #banner{
+    text-align: left;
+    background-image: url(images/children-person-drawing.jpg);
+    background-repeat: repeat-x;
+    padding: 10px;
+  }
+/*THIS IS HOW YOU INSERT COMMENTS*/
+
+  body {
+    background: #efeded;
+    color: black;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: normal;
+    text-align: center;
+  }
+  h1{
+    font-family: Helvetica;
+    color: white;
+    font-weight: normal;
+    font-size: 26px;
+    text-align: left;
+  }
+    h1 span {
+    background:none repeat scroll 0 0 #e24665;
+    padding: 5px;
+  }
+  
+  h2 {
+    font-family: Helvetica;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+  }
+  h2 span {
+    background:none repeat scroll 0 0 #e2e046;
+    border-left-style: solid;
+    border-left-color: #e24665;
+    padding: 10px;
+  }
+  
+  h3 {
+    font-family: Helvetica;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: oblique;
+  }
+  h3 span {
+    background:none repeat scroll 0 0 #e2e046;
+    padding: 5px;
+  }
+
+  a {
+    color: black;
+  }
+  a:hover {
+    text-decoration: none;
+    color: purple;
+  }
+
+#link{
+  text-align: left;
+  padding: 10px;
+}
+
+#footer{
+    padding: 30px;
+    background: rgb(30, 30, 30);
+    color: white;
+    text-align: left;
+  }
+#footer a:hover {
+  color: white;
+
+}
+
+.card{
+    padding: 10px;
+    font-weight: lighter;
+    border-color: black;
+    display: inline-block;
+    vertical-align: top;
+  }

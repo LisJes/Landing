@@ -1,0 +1,114 @@
+body {
+    background: rgb(245, 245, 245);
+    color: black;
+    font-size: 16px;
+    font-family: Helvetica;
+    padding: 10px;
+  }
+
+h1{
+    font-family: Helvetica;
+    color: white;
+    font-weight: normal;
+    font-size: 26px;
+    text-align: left;
+  }
+h1 span {
+    background:none repeat scroll 0 0 #e24665;
+    padding: 5px;
+  }
+
+h2 {
+    font-family: Helvetica;
+    color: #e24665;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+
+h3 {
+    font-family: Helvetica;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: left;
+  }
+h3 span {
+    background:none repeat scroll 0 0 #e2e046;
+    border-left-style: solid;
+    border-left-color: #e24665;
+    padding: 10px;
+  }
+
+a {
+    color: #e24665;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+a:hover {
+    text-decoration: none;
+    color: purple;
+  }
+
+#banner{
+    text-align: center;
+    background-image: url("https://unsplash.it/1300/600?image=639");
+    background-size: cover;
+    padding: 150px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+  }
+#banner h1 {
+    color: white;
+    font-size: 50px;
+  }
+#banner p {
+    color: white;
+    opacity: 0.8;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+
+#footer{
+    padding: 20px;
+    background: rgb(30, 30, 30);
+    color: lightgrey;
+  }
+#footer a:hover {
+    color: white;
+  }
+
+#footer ul li {
+  text-align: left;
+}
+
+.card{
+    padding: 10px;
+    font-weight: lighter;
+    border-color: black;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 200px;
+    background-color: white;
+    border: 1px solid #cecece;
+    text-align: center;
+    margin: 10px 10px 10px 0;
+    width: 100%;
+    min-height: 250px
+  }
+
+  .knopf{
+    margin: 10px;
+    padding: 20px;
+  }
+
+/*div { 
+  padding: 20px; 
+  min-height: 300px;
+  }*/
+
+@media (max-width: 600px) {
+  body {
+    background-color: pink;
+  }
